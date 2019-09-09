@@ -6,12 +6,19 @@ PWA test > [GitHub Pages](https://liszwork.github.io/test-pwa/)
 
 ## refs
 
-[GitHub Pagesの設定方法](https://www.tam-tam.co.jp/tipsnote/html_css/post11245.html)
+### 基礎
 
-[vue.js ローカルデバッグ](https://jp.vuejs.org/v2/cookbook/debugging-in-vscode.html)
+- [PWAをもっと簡単に初めてみる](https://qiita.com/poster-keisuke/items/6651140fa20c7aa18474)
 
-[vue-cliについて(公式)](https://cli.vuejs.org/guide/#components-of-the-system)
+### 公開
 
-[vue-cliいついて(Qiita)](https://qiita.com/567000/items/dde495d6a8ad1c25fa43)
+- [GitHub Pagesの設定方法](https://www.tam-tam.co.jp/tipsnote/html_css/post11245.html)
 
-    
+### デバッグ
+
+- [vue.js ローカルデバッグ](https://jp.vuejs.org/v2/cookbook/debugging-in-vscode.html)
+- [vue-cliについて(公式)](https://cli.vuejs.org/guide/#components-of-the-system)
+- [vue-cliについて(Qiita)](https://qiita.com/567000/items/dde495d6a8ad1c25fa43)
+- [Vue.js Devtools 使い方](https://qiita.com/hashimoto-1202/items/c81f5d4c271eef16d957)
+
+vue-cliいらないかも？
