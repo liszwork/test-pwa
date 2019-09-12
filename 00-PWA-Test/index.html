@@ -12,9 +12,13 @@
 
 <body>
     <div id="app">
+        <!-- {{}}でVueインスタンスの要素を取得 -->
         <p>{{ message }}</p>
+        <!-- v-on:click名がmethodsの名称とリンクしている -->
         <button v-on:click="reverseMessage">Reverse Message</button>
+        <button v-on:click="changeMessage">Change Message</button>
     </div>
+    <!-- scriptタグで組込/読込ができる -->
     <script>
         // デバッグツールの有効化
         Vue.config.devtools = true;
@@ -27,6 +31,7 @@
             });
         }
         // vue.jsの設定関係
+        // これがVueインスタンス
         var app = new Vue({
             el: '#app',
             data: {
@@ -35,6 +40,9 @@
             methods: {
                 reverseMessage: function () {
                     this.message = this.message.split('').reverse().join('')
+                },
+                changeMessage: function () {
+                    this.message = 'vue app!'
                 }
             }
         });
