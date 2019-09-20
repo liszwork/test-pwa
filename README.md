@@ -32,3 +32,4 @@ Vue-CLIを使ったサンプル。
 - [Vue.js Devtools 使い方](https://qiita.com/hashimoto-1202/items/c81f5d4c271eef16d957)
 
 vue-cliいらないかも？
+→PWAテンプレートプロジェクト作るのに必要

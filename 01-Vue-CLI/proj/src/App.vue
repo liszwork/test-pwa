@@ -6,33 +6,15 @@
     <main>
       <!-- <img src="./assets/logo.png" alt="Vue.js PWA"> -->
       <img src="./assets/lololo.png" alt="Vue.js PWA">
-      <div class="message-test">
-        <p>[[[[testmsg]]]]</p>
-        <p>{{ message }}</p>
-        <button v-on:click="reverseMessage">Reverse Message</button>
-      </div>
       <router-view></router-view>
     </main>
   </div>
 </template>
 
 <script>
-export default {[
-  {
-    name: 'app'
-  },
-  {
-    name: '#app',
-    data: {
-      message: 'Hello Vue!'
-    },
-    methods: {
-      reverseMessage: function () {
-        this.message = this.message.split('').reverse().join('')
-      }
-    }
-  }
-]}
+export default {
+  name: 'app'
+}
 </script>
 
 <style>
